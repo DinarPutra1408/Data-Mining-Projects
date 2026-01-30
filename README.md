@@ -7,22 +7,6 @@ Berbeda dengan proyek simulasi, proyek di dalam repository ini menggunakan:
 * **Data Asli:** Data yang dikumpulkan langsung melalui API (seperti YouTube Data API) dan dataset klinis terverifikasi.
 * **End-to-End Process:** Mulai dari *Crawling*, *Preprocessing* (Pembersihan Data), *Modeling*, hingga *Evaluation*.
 
----
-
-## 📂 Struktur Proyek & Navigasi
-Gunakan link di bawah ini untuk menjelajahi setiap metode:
-
-### 1. [🚀 Supervised Learning: Cancer Prediction](./Supervised_Learn_Cancer_Prediction)
-Klasifikasi data medis untuk memprediksi ciri ciri Cancer berat maupun ringan menggunakan algoritma **Linier regeresi, dan Naive Bayes**.
-
-### 2. [🔍 Unsupervised Learning: Customer Segmentation](./Unsupervised_Learning)
-Segmentasi perilaku pelanggan untuk strategi bisnis menggunakan algoritma **K-Means Clustering**.
-
-### 3. [🎭 Sentiment Analysis: Pilpres 2024](./Sentiment_Analysis)
-Analisis opini publik dari komentar YouTube terhadap tokoh politik menggunakan **Natural Language Processing (NLP)** dan **Naïve Bayes**.
-
----
-
 ## 🛠️ Tech Stack & Skills
 Dalam pengerjaannya, saya menggunakan ekosistem Python sebagai berikut:
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
