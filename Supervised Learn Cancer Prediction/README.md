@@ -1,29 +1,26 @@
-# 📈 Supervised Learning: Classification Project
+# 📈 Supervised Learning: Cancer Prediction
 
-Repository ini berisi implementasi algoritma Supervised Learning untuk kasus klasifikasi medis.
+Folder ini berisi implementasi **Predictive Analytics** untuk deteksi dini karakteristik kanker menggunakan teknik Regresi dan Klasifikasi.
 
-## 🩺 Project: Diabetes Prediction (KNN)
-Proyek ini bertujuan untuk memprediksi status kesehatan pasien (terkena diabetes atau tidak) berdasarkan parameter klinis menggunakan algoritma **K-Nearest Neighbors (KNN)**.
+## 🎗️ Project: Predictive Analytics for Breast Cancer
+Proyek ini membangun model prediktif menggunakan dataset ciri-ciri pasien kanker payudara untuk membandingkan performa model linear dan non-linear.
 
-### 📋 Dataset Features
-Dataset mencakup beberapa variabel penting seperti:
-* **Pregnancies**: Jumlah kehamilan.
-* **Glucose**: Konsentrasi glukosa plasma.
-* **Blood Pressure**: Tekanan darah diastolik.
-* **BMI**: Body Mass Index.
-* **Age**: Usia pasien.
+### 📋 Key Features & Analysis
+* **Regression Analysis**: Mengimplementasikan **Linear** dan **Polynomial Regression**.
+* **Model Optimization**: Menggunakan *Advanced Transformation* untuk menangani data yang *skewed* (menceng).
+* **Comparison**: Membandingkan akurasi model Linear vs Non-Linear dengan mencari nilai Polynomial ($k$) yang paling optimal dalam mendeteksi ciri-ciri kanker.
 
 ### ⚙️ Workflow
-1. **Data Preprocessing**: Pembersihan data dan pengecekan nilai null.
-2. **Exploratory Data Analysis (EDA)**: Visualisasi distribusi fitur.
-3. **Data Splitting**: Membagi data menjadi *Training Set* dan *Testing Set*.
-4. **Model Implementation**: Melatih model menggunakan `KNeighborsClassifier`.
-5. **Evaluation**: Mengukur performa model dengan *Accuracy Score* dan *Confusion Matrix*.
+1. **Data Discovery**: Memahami variabel klinis pada dataset pasien kanker payudara.
+2. **Preprocessing**: Penanganan data *skewed* agar model lebih akurat.
+3. **Modeling**: Eksperimen dengan berbagai derajat polinomial untuk menangkap pola non-linear.
+4. **Evaluation**: Membandingkan hasil prediksi antar model untuk akurasi terbaik.
 
 ### 🚀 Tech Stack
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![Scikit-Learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=flat&logo=scikit-learn&logoColor=white)
-![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=flat&logo=pandas&logoColor=white)
+![Numpy](https://img.shields.io/badge/Numpy-777BB4?style=flat&logo=numpy&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
 
 ---
 [⬅️ Kembali ke Menu Utama](../README.md)
