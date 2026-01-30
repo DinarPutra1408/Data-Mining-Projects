@@ -1,28 +1,26 @@
-# 🔍 Unsupervised Learning: Clustering Project
+# 🔍 Unsupervised Learning: Regional Revenue Clustering
 
-Folder ini berisi implementasi teknik pembelajaran mesin tanpa pengawasan untuk menemukan pola tersembunyi dalam data.
+Folder ini berisi implementasi teknik clustering untuk memetakan profil ekonomi wilayah di Jawa Timur menggunakan pendekatan statistik tingkat lanjut.
 
-## 🛍️ Project: Customer Segmentation Analysis (K-Means)
-Proyek ini bertujuan untuk mengelompokkan pelanggan berdasarkan kemiripan karakteristik untuk membantu strategi pemasaran (marketing strategy).
+## 🌾 Project: Klaster Pendapatan Sebulan Bekerja Jawa Timur 2023
+Proyek ini bertujuan untuk mengelompokkan kabupaten/kota di Jawa Timur berdasarkan indikator pendapatan di sektor Pertanian, Industri, dan Jasa.
 
-### 📊 Dataset Overview
-Analisis dilakukan pada dataset pelanggan yang mencakup fitur utama:
-* **Gender**: Jenis kelamin pelanggan.
-* **Age**: Usia pelanggan.
-* **Annual Income**: Pendapatan tahunan.
-* **Spending Score**: Skor pengeluaran yang ditentukan berdasarkan perilaku konsumen.
+### 📊 Methodology & Analysis
+* **Hierarchical Clustering**: Menggunakan algoritma pengelompokan hierarki untuk melihat hubungan kedekatan ekonomi antar wilayah.
+* **Principal Component Analysis (PCA)**: Menerapkan reduksi dimensi untuk menyederhanakan struktur data yang kompleks tanpa kehilangan informasi penting.
+* **Dendrogram Visualization**: Menggunakan diagram pohon (Dendrogram) untuk menentukan jumlah klaster yang paling representatif bagi wilayah Jawa Timur.
 
-### ⚙️ Workflow & Methodology
-1. **Exploratory Data Analysis (EDA)**: Menganalisis korelasi antar fitur (seperti hubungan Age vs Spending Score).
-2. **Feature Engineering**: Melakukan *Label Encoding* pada data kategorikal (Gender) agar bisa diproses algoritma.
-3. **Elbow Method**: Menentukan jumlah klaster ($k$) yang paling optimal.
-4. **K-Means Clustering**: Mengelompokkan data ke dalam beberapa klaster berdasarkan jarak *Euclidean*.
-5. **Visualization**: Menampilkan hasil segmentasi dalam bentuk *scatter plot*.
+### ⚙️ Workflow
+1. **Indicator Selection**: Fokus pada pendapatan sektor Pertanian, Industri, dan Jasa per Kabupaten/Kota.
+2. **Dimensionality Reduction**: Proses PCA untuk mempermudah visualisasi data multivariat.
+3. **Clustering Process**: Menjalankan Hierarchical Clustering untuk membentuk kelompok wilayah.
+4. **Actionable Insights**: Hasil visualisasi scatterplot digunakan sebagai dasar rekomendasi program pembangunan sesuai karakteristik pendapatan wilayah.
 
 ### 🚀 Tech Stack
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![Scipy](https://img.shields.io/badge/Scipy-8CAAE6?style=flat&logo=scipy&logoColor=white)
 ![Scikit-Learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=flat&logo=scikit-learn&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=flat&logo=Matplotlib&logoColor=black)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
 
 ---
 [⬅️ Kembali ke Menu Utama](../README.md)
