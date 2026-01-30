@@ -30,12 +30,3 @@ Dalam pengerjaannya, saya menggunakan ekosistem Python sebagai berikut:
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 
----
-
-## 📈 Visualisasi Project
-*(Opsional: Kamu bisa menambahkan gambar kompilasi hasil plot di sini)*
-![Combined Analysis](./assets/main_preview.png)
-
----
-**Kontak & Diskusi:**
-[Dinar Putra] - [Link LinkedIn Kamu]
