@@ -12,8 +12,8 @@ Berbeda dengan proyek simulasi, proyek di dalam repository ini menggunakan:
 ## 📂 Struktur Proyek & Navigasi
 Gunakan link di bawah ini untuk menjelajahi setiap metode:
 
-### 1. [🚀 Supervised Learning: Cancer Prediction](./Supervised Learn Cancer Prediction)
-Klasifikasi data medis untuk memprediksi risiko diabetes menggunakan algoritma **K-Nearest Neighbors (KNN)**.
+### 1. [🚀 Supervised Learning: Cancer Prediction](./Supervised_Learn_Cancer_Prediction)
+Klasifikasi data medis untuk memprediksi ciri ciri Cancer berat maupun ringan menggunakan algoritma **Linier regeresi, dan Naive Bayes**.
 
 ### 2. [🔍 Unsupervised Learning: Customer Segmentation](./Unsupervised_Learning)
 Segmentasi perilaku pelanggan untuk strategi bisnis menggunakan algoritma **K-Means Clustering**.
