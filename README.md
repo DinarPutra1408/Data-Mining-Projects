@@ -1,8 +1,8 @@
-# 📊 Data Mining Comprehensive Projects
+# Data Mining Comprehensive Projects
 
 Selamat datang di repository portofolio Data Mining saya. Repository ini merupakan kumpulan proyek akademik yang berfokus pada pengolahan **data dunia nyata (real-world data)** untuk menghasilkan wawasan yang bermakna.
 
-## 🌟 Highlight Utama
+## Highlight Utama
 Berbeda dengan proyek simulasi, proyek di dalam repository ini menggunakan:
 * **Data Asli:** Data yang dikumpulkan langsung melalui API (seperti YouTube Data API) dan dataset klinis terverifikasi.
 * **End-to-End Process:** Mulai dari *Crawling*, *Preprocessing* (Pembersihan Data), *Modeling*, hingga *Evaluation*.
@@ -12,7 +12,7 @@ Berbeda dengan proyek simulasi, proyek di dalam repository ini menggunakan:
 ## 📂 Struktur Proyek & Navigasi
 Gunakan link di bawah ini untuk menjelajahi setiap metode:
 
-### 1. [🚀 Supervised Learning: Diabetes Prediction](./Supervised_Learning)
+### 1. [🚀 Supervised Learning: Cancer Prediction](./Supervised Learn Cancer Prediction)
 Klasifikasi data medis untuk memprediksi risiko diabetes menggunakan algoritma **K-Nearest Neighbors (KNN)**.
 
 ### 2. [🔍 Unsupervised Learning: Customer Segmentation](./Unsupervised_Learning)
