@@ -1,7 +1,7 @@
 # 🎭 Sentiment Analysis: Geopolitical Issues (Maduro Case)
 
 <div align="center">
-  <img src="./assets/poster_maduro.png" width="500" alt="Sentiment Analysis Poster">
+  <img src="./Sentiment Analysis/PosterSentimentAnalysis.pdf" width="500" alt="Sentiment Analysis Poster">
   <p><i>Visualisasi Data: Analisis Sentimen Publik terhadap Isu Penangkapan Presiden Maduro</i></p>
 </div>
 
@@ -34,3 +34,4 @@ Proyek ini mengekstraksi dan mengklasifikasikan ribuan opini publik dari YouTube
 
 ---
 [⬅️ Kembali ke Menu Utama](../README.md)
+
