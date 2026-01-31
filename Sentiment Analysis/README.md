@@ -1,29 +1,36 @@
 # 🎭 Sentiment Analysis: Geopolitical Issues (Maduro Case)
 
-Folder ini berisi proyek **Natural Language Processing (NLP)** untuk menganalisis reaksi publik internasional terhadap isu geopolitik penangkapan Presiden Venezuela, Nicolas Maduro, oleh Amerika Serikat.
+<div align="center">
+  <img src="./assets/poster_maduro.png" width="500" alt="Sentiment Analysis Poster">
+  <p><i>Visualisasi Data: Analisis Sentimen Publik terhadap Isu Penangkapan Presiden Maduro</i></p>
+</div>
 
-## 🗳️ Project: Public Sentiment on Maduro's Geopolitical Case
-Proyek ini mengekstraksi dan mengklasifikasikan ribuan opini publik dari YouTube untuk memahami persepsi masyarakat global terhadap tindakan hukum Amerika Serikat.
+## 📖 Deskripsi Proyek
+Folder ini berisi proyek **Natural Language Processing (NLP)** yang berfokus pada analisis reaksi publik internasional. Studi kasus yang diambil adalah isu geopolitik besar mengenai penangkapan Presiden Venezuela, **Nicolas Maduro**, oleh otoritas Amerika Serikat. Proyek ini bertujuan untuk memetakan bagaimana opini masyarakat digital merespons tindakan politik internasional tersebut.
 
-### 📋 Key Workflow
-1. **Data Crawling**: Pengambilan ribuan komentar secara *real-time* menggunakan **YouTube Data API v3**.
-2. **Text Preprocessing**: Pipeline lengkap menggunakan library **NLTK** dan **Sastrawi**:
-   - *Cleansing*: Pembersihan simbol dan link.
-   - *Case Folding*: Penyeragaman huruf.
-   - *Stopword Removal & Stemming*: Mengubah kata ke bentuk dasar bahasa Indonesia yang baku.
-3. **Sentiment Analysis**: Menganalisis pola kata untuk menentukan kategori sentimen.
-4. **Insight Extraction**: Menghasilkan data statistik yang menunjukkan kecenderungan opini publik.
+## 🗳️ Project Overview
+Proyek ini mengekstraksi dan mengklasifikasikan ribuan opini publik dari YouTube menggunakan pendekatan *Data Mining* untuk memahami pola persepsi masyarakat global terhadap kebijakan hukum Amerika Serikat.
 
-### 📊 Project Highlights
-* **Topic**: Isu Geopolitik Penangkapan Presiden Nicolas Maduro oleh AS.
-* **Volume**: Menganalisis ribuan komentar audiens.
-* **Key Result**: Ditemukan bahwa **97% audiens menunjukkan sentimen NEGATIF** terhadap topik spesifik tersebut.
+### 📋 Alur Kerja Utama (Workflow)
+1. **Data Crawling**: Pengambilan ribuan data komentar secara *real-time* menggunakan **YouTube Data API v3**.
+2. **Text Preprocessing**: Pipeline pembersihan teks mendalam menggunakan library **NLTK** dan **Sastrawi**:
+   - **Cleansing**: Menghapus noise data (simbol, angka, dan URL).
+   - **Case Folding**: Menyeragamkan teks menjadi huruf kecil untuk konsistensi.
+   - **Stopword Removal & Stemming**: Menghilangkan kata sambung dan mengubah kata ke bentuk dasar bahasa Indonesia yang baku.
+3. **Sentiment Analysis**: Mengimplementasikan algoritma **Naïve Bayes Classifier** untuk menentukan kategori sentimen (Positif, Netral, Negatif).
+4. **Insight Extraction**: Transformasi hasil pemodelan menjadi statistik visual yang mudah dipahami.
+
+### 📊 Hasil Analisis (Project Highlights)
+* **Topik Utama**: Konflik Geopolitik AS vs Venezuela (Kasus Nicolas Maduro).
+* **Volume Data**: Berhasil menganalisis ribuan komentar audiens secara masif.
+* **Temuan Kunci**: Analisis menunjukkan hasil yang signifikan di mana **97% audiens memberikan respons NEGATIF**, merefleksikan kritik tajam publik terhadap isu tersebut.
 
 ### 🚀 Tech Stack
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![NLTK](https://img.shields.io/badge/NLTK-blue?style=flat)
 ![Sastrawi](https://img.shields.io/badge/Sastrawi-Green?style=flat)
 ![YouTube API](https://img.shields.io/badge/YouTube_API-FF0000?style=flat&logo=youtube&logoColor=white)
+![Scikit-Learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=flat&logo=scikit-learn&logoColor=white)
 
 ---
 [⬅️ Kembali ke Menu Utama](../README.md)
